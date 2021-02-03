@@ -1,5 +1,6 @@
 package com.ba.designpattern;
 
+import com.ba.designpattern.facade.ShapeMaker;
 import com.ba.designpattern.factory.Asus;
 import com.ba.designpattern.factory.ComputerFactory;
 import com.ba.designpattern.factory.Mac;
@@ -22,6 +23,12 @@ public class DesignPatternApplication {
         } catch (Exception e) {
             e.printStackTrace();
         }
+
+        ShapeMaker shapeMaker = new ShapeMaker();
+
+        shapeMaker.drawCircle();
+        shapeMaker.drawRectangle();
+        shapeMaker.drawSquare();
     }
 
 }
