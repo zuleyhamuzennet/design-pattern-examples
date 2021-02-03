@@ -14,10 +14,15 @@ Facade Bir alt sistemin parçalarını oluşturan classları istemciden soyutlay
 - Subject ve Observerlar arasında One Subject -to-Many Observers ilişkisi vardır. Subject bu verilerin tek sahibi olduğu için, gözlemciler, veriler değiştiğinde onları güncellemek için Subject’e bağımlıdır. Birçok nesnenin aynı veriyi kontrol etmesine izin vermekten daha temiz bir Object Oriented tasarımdır.
 - Loose Coupling’in gücü: Observer Design Pattern’da loose coupling ilişkisi vardır. İki obje birbiriyle ilişkilidir ama birbiri hakkında çok az şey bilirler. Birinde yaptığımız değişlik diğerini etkilemez.
 
+## Strategy Design Pattern
+
+- Strateji tasarım deseni geliştirdiğimiz uygulama içinde algoritmaları sınıflandırmamızı ve çalışma anında kullanacağımız algoritmayı seçmemizi sağlar. Bu algoritmalar kendi içinde kapsüllenerek (encapsulate) programın geri kalanından soyutlanır ve uygulamamızın loosely coupled bir yapıda olmasına yardım eder. Örneğin bir maliyet hesabında LIFO mu yoksa FIFO mu kullanacağımızı çalışma anında belirlemek istiyorsak strateji tasarım desenini kullanarak bunu nesne yönelimli programlama ilkeleri doğrultusunda yapabiliriz.
+
 # Kaynaklar
 
 - [Factory Pattern](https://medium.com/bili%C5%9Fim-hareketi/factory-fabrika-pattern-c14baca707be)
 - [Facade Pattern](https://www.tutorialspoint.com/design_pattern/facade_pattern.htm)
 - [Observer Design Pattern - Örnek](https://medium.com/t%C3%BCrkiye/observer-g%C3%B6zlemci-pattern-16cbe6d4bfbe)
 - [Observer Design Pattern- Açıklama](https://medium.com/i%CC%87yi-programlama/observer-g%C3%B6zlemci-design-pattern-535df620b720)
+- [Strategy Design Pattern- Örnek](https://metinalniacik.medium.com/strategy-design-pattern-strateji-tasar%C4%B1m-%C3%B6r%C3%BCnt%C3%BCs%C3%BC-d7a43290969c)
  
