@@ -29,4 +29,4 @@
 - [Observer Design Pattern - Örnek](https://medium.com/t%C3%BCrkiye/observer-g%C3%B6zlemci-pattern-16cbe6d4bfbe)
 - [Observer Design Pattern- Açıklama](https://medium.com/i%CC%87yi-programlama/observer-g%C3%B6zlemci-design-pattern-535df620b720)
 - [Strategy Design Pattern- Örnek](https://metinalniacik.medium.com/strategy-design-pattern-strateji-tasar%C4%B1m-%C3%B6r%C3%BCnt%C3%BCs%C3%BC-d7a43290969c)
-- [Template Design Pattern - Örnek](hhttps://www.journaldev.com/1763/template-method-design-pattern-in-java)
+- [Template Design Pattern - Örnek](https://www.journaldev.com/1763/template-method-design-pattern-in-java)
