@@ -25,9 +25,9 @@
 ## Front Controller Design Pattern
 
 - Front Controller Design Pattern, tüm taleplerin tek bir işleyici tarafından ele alınabilmesi için merkezi bir talep işleme mekanizması sağlamak için kullanılır. Bu işleyici, talebin kimlik doğrulaması / yetkilendirmesi / günlüğe kaydedilmesi veya takibini yapabilir ve ardından istekleri ilgili işleyicilere iletebilir. Bu tür tasarım modelinin varlıkları şu şekildedir.
-- Front Controller - sistemdeki tüm talepleri ele almak için ilk temas noktasıdır. Controller, bir kullanıcının kimlik doğrulamasını ve yetkilendirmesini tamamlamak veya kontak erişimini başlatmak için bir yardımcıya yetki verebilir.
-- Dispatcher - Front Controller may use a dispatcher object which can dispatch the request to corresponding specific handler.
-- View : kullanıcıya gelen bilgileri temsil eder ve görüntüler. View, bir modelden bilgi alır. 
+- Front Controller : Sistemdeki tüm talepleri ele almak için ilk temas noktasıdır. Controller, bir kullanıcının kimlik doğrulamasını ve yetkilendirmesini tamamlamak veya kontak erişimini başlatmak için bir yardımcıya yetki verebilir.
+- Dispatcher : Front Controller may use a dispatcher object which can dispatch the request to corresponding specific handler.
+- View : Kullanıcıya gelen bilgileri temsil eder ve görüntüler. View, bir modelden bilgi alır. 
 
 # Kaynaklar
 
