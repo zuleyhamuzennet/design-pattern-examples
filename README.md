@@ -29,6 +29,11 @@
 - Dispatcher : Front Controller may use a dispatcher object which can dispatch the request to corresponding specific handler.
 - View : Kullanıcıya gelen bilgileri temsil eder ve görüntüler. View, bir modelden bilgi alır. 
 
+## Adapter Design Pattern
+
+- Bir Adaptör modeli, aksi takdirde doğrudan bağlanamayacak iki uyumsuz arayüz arasında bir bağlayıcı görevi görür. Bir Bağdaştırıcı, mevcut bir sınıfı yeni bir arabirimle sarmalar, böylece istemcinin arabirimiyle uyumlu hale gelir.
+Bu kalıbı kullanmanın arkasındaki ana sebep, mevcut bir arayüzü müşterinin beklediği başka bir arayüze dönüştürmektir. Genellikle uygulama tasarlandıktan sonra uygulanır.
+
 # Kaynaklar
 
 - [Factory Design Pattern](https://medium.com/bili%C5%9Fim-hareketi/factory-fabrika-pattern-c14baca707be)
@@ -39,4 +44,5 @@
 - [Template Design Pattern - Örnek](https://www.journaldev.com/1763/template-method-design-pattern-in-java)
 - [Template Design Pattern - bakabilirsin burdaki örneğe](https://www.geeksforgeeks.org/template-method-design-pattern/)
 - [Front Controller Design Pattern](https://www.geeksforgeeks.org/front-controller-design-pattern/)
+- [Adapter Design Pattern](https://www.tutorialspoint.com/design_pattern/adapter_pattern.htm)
 
