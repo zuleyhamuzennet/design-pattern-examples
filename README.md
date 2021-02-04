@@ -22,11 +22,21 @@
 
 - Şablon metot kalıbı davranışsal tasarım kalıpları grubunda yer alır. Şablon metot kalıbı bir işlem için gerekli adımları soyut olarak tanımlar ve bir şablon metot ile algoritmanın nasıl çalışacağını belirler. Alt sınıflar algoritma için gerekli bir ya da birden fazla metodu kendi bünyelerinde gerçekleyerek kullanılan algoritmanın kendi istekleri doğrultusunda çalışmasını sağlarlar. Böylece hem kod tekrarının önüne geçilerek kodun tekrar kullanılabilirliği hem de algoritma iskeletinde yapılacak bir düzenlemenin tek bir yerden yapılması sağlanır. Örneğin ata sınıfa (parent class) konulacak ve tanımlaması yapılmış bir yöntemle, alt sınıfın akışına müdahale etmesi sağlanabilir.
 
+## Front Controller Design Pattern
+
+- Front Controller Design Pattern, tüm taleplerin tek bir işleyici tarafından ele alınabilmesi için merkezi bir talep işleme mekanizması sağlamak için kullanılır. Bu işleyici, talebin kimlik doğrulaması / yetkilendirmesi / günlüğe kaydedilmesi veya takibini yapabilir ve ardından istekleri ilgili işleyicilere iletebilir. Bu tür tasarım modelinin varlıkları şu şekildedir.
+- Front Controller : Sistemdeki tüm talepleri ele almak için ilk temas noktasıdır. Controller, bir kullanıcının kimlik doğrulamasını ve yetkilendirmesini tamamlamak veya kontak erişimini başlatmak için bir yardımcıya yetki verebilir.
+- Dispatcher : Front Controller may use a dispatcher object which can dispatch the request to corresponding specific handler.
+- View : Kullanıcıya gelen bilgileri temsil eder ve görüntüler. View, bir modelden bilgi alır. 
+
 # Kaynaklar
 
-- [Factory Pattern](https://medium.com/bili%C5%9Fim-hareketi/factory-fabrika-pattern-c14baca707be)
-- [Facade Pattern](https://www.tutorialspoint.com/design_pattern/facade_pattern.htm)
+- [Factory Design Pattern](https://medium.com/bili%C5%9Fim-hareketi/factory-fabrika-pattern-c14baca707be)
+- [Facade Design Pattern](https://www.tutorialspoint.com/design_pattern/facade_pattern.htm)
 - [Observer Design Pattern - Örnek](https://medium.com/t%C3%BCrkiye/observer-g%C3%B6zlemci-pattern-16cbe6d4bfbe)
 - [Observer Design Pattern- Açıklama](https://medium.com/i%CC%87yi-programlama/observer-g%C3%B6zlemci-design-pattern-535df620b720)
 - [Strategy Design Pattern- Örnek](https://metinalniacik.medium.com/strategy-design-pattern-strateji-tasar%C4%B1m-%C3%B6r%C3%BCnt%C3%BCs%C3%BC-d7a43290969c)
 - [Template Design Pattern - Örnek](https://www.journaldev.com/1763/template-method-design-pattern-in-java)
+- [Template Design Pattern - bakabilirsin burdaki örneğe](https://www.geeksforgeeks.org/template-method-design-pattern/)
+- [Front Controller Design Pattern](https://www.geeksforgeeks.org/front-controller-design-pattern/)
+
