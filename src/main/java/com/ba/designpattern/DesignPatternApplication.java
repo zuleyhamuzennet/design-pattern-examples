@@ -1,5 +1,6 @@
 package com.ba.designpattern;
 
+import com.ba.designpattern.adapter.AudioPlayer;
 import com.ba.designpattern.facade.ShapeMaker;
 import com.ba.designpattern.factory.Asus;
 import com.ba.designpattern.factory.ComputerFactory;
@@ -55,6 +56,13 @@ public class DesignPatternApplication {
         FrontController frontController = new FrontController();
         frontController.dispatchRequest("Teacher");
         frontController.dispatchRequest("Student");
+
+        // Adapter
+        AudioPlayer audioPlayer = new AudioPlayer();
+        audioPlayer.play("mp3", "beyond the horizon.mp3");
+        audioPlayer.play("mp4", "alone.mp4");
+        audioPlayer.play("vlc", "far far away.vlc");
+        audioPlayer.play("avi", "mind me.avi");
     }
     
     
