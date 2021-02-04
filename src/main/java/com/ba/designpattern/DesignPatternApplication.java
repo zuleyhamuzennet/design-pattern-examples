@@ -4,6 +4,7 @@ import com.ba.designpattern.facade.ShapeMaker;
 import com.ba.designpattern.factory.Asus;
 import com.ba.designpattern.factory.ComputerFactory;
 import com.ba.designpattern.factory.Mac;
+import com.ba.designpattern.frontcontroller.FrontController;
 import com.ba.designpattern.observer.NoticeObservable;
 import com.ba.designpattern.observer.UserMan;
 import com.ba.designpattern.observer.UserWoman;
@@ -49,6 +50,11 @@ public class DesignPatternApplication {
         //template
         HousingClient housingClient = new HousingClient();
         housingClient.housingClientRun();
+
+        // Front Controller
+        FrontController frontController = new FrontController();
+        frontController.dispatchRequest("Teacher");
+        frontController.dispatchRequest("Student");
     }
     
     
