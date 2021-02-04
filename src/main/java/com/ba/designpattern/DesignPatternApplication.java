@@ -7,6 +7,7 @@ import com.ba.designpattern.factory.Mac;
 import com.ba.designpattern.observer.NoticeObservable;
 import com.ba.designpattern.observer.UserMan;
 import com.ba.designpattern.observer.UserWoman;
+import com.ba.designpattern.template.HousingClient;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -44,6 +45,12 @@ public class DesignPatternApplication {
         noticeObservable.notifyObserver();
         userWoman.removeObserver();
         noticeObservable.notifyObserver();
+        
+        //template
+        HousingClient housingClient = new HousingClient();
+        housingClient.housingClientRun();
     }
+    
+    
 
 }
