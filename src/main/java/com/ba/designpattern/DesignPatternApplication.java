@@ -9,6 +9,8 @@ import com.ba.designpattern.frontcontroller.FrontController;
 import com.ba.designpattern.observer.NoticeObservable;
 import com.ba.designpattern.observer.UserMan;
 import com.ba.designpattern.observer.UserWoman;
+import com.ba.designpattern.prototype.Shape;
+import com.ba.designpattern.prototype.ShapeCache;
 import com.ba.designpattern.template.HousingClient;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -63,6 +65,13 @@ public class DesignPatternApplication {
         audioPlayer.play("mp4", "alone.mp4");
         audioPlayer.play("vlc", "far far away.vlc");
         audioPlayer.play("avi", "mind me.avi");
+
+        // Prototype
+        ShapeCache.loadCache();
+        Shape circle = ShapeCache.getShape("1");
+        System.out.println("Shape Type: "+ circle.getType());
+        Shape rectangle = ShapeCache.getShape("2");
+        System.out.println("Shape Type: "+rectangle.getType());
     }
     
     
