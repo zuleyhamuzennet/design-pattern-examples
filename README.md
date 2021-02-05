@@ -2,7 +2,7 @@
 
 ## Factory Method Pattern
 
-En basit haliyle, nesnelerin üretilme işlemini merkezi bir hale getirerek kod tekrarını önlememize yardımcı olan patterndir. Aynı abstractları inheritance almış nesnelerin üretimini yapan pattern de diyebiliriz.
+- En basit haliyle, nesnelerin üretilme işlemini merkezi bir hale getirerek kod tekrarını önlememize yardımcı olan patterndir. Aynı abstractları inheritance almış nesnelerin üretimini yapan pattern de diyebiliriz.
 
 ## Facade Design Pattern
 
