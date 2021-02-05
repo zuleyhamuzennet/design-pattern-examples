@@ -1,8 +1,8 @@
 # Design Patterns
 
-# Açıklamalar
+## Factory Method Pattern
 
-## Factory Design Pattern
+En basit haliyle, nesnelerin üretilme işlemini merkezi bir hale getirerek kod tekrarını önlememize yardımcı olan patterndir. Aynı abstractları inheritance almış nesnelerin üretimini yapan pattern de diyebiliriz.
 
 ## Facade Design Pattern
 
@@ -34,6 +34,11 @@
 - Bir Adaptör modeli, aksi takdirde doğrudan bağlanamayacak iki uyumsuz arayüz arasında bir bağlayıcı görevi görür. Bir Bağdaştırıcı, mevcut bir sınıfı yeni bir arabirimle sarmalar, böylece istemcinin arabirimiyle uyumlu hale gelir.
 Bu kalıbı kullanmanın arkasındaki ana sebep, mevcut bir arayüzü müşterinin beklediği başka bir arayüze dönüştürmektir. Genellikle uygulama tasarlandıktan sonra uygulanır.
 
+## Prototype Design Pattern
+
+- Bu model, mevcut nesnenin bir klonunu oluşturmayı söyleyen bir prototip arayüzünün uygulanmasını içerir. Bu desen, doğrudan nesnenin yaratılması maliyetli olduğunda kullanılır. Örneğin, maliyetli bir veritabanı işleminden sonra bir nesne oluşturulacaktır. Nesneyi önbelleğe alabilir, bir sonraki talepte klonunu döndürür ve gerektiğinde veritabanını güncelleyerek veritabanı çağrılarını azaltırız.
+- Bu klonlama(kopyalama) işleminde, deep-copy yöntemi kullanılıyor. Yani bir nesne, birebir kopyalanarak yeni bir referans değişkene atılıyor.
+
 # Kaynaklar
 
 - [Factory Design Pattern](https://medium.com/bili%C5%9Fim-hareketi/factory-fabrika-pattern-c14baca707be)
@@ -45,4 +50,6 @@ Bu kalıbı kullanmanın arkasındaki ana sebep, mevcut bir arayüzü müşterin
 - [Template Design Pattern - bakabilirsin burdaki örneğe](https://www.geeksforgeeks.org/template-method-design-pattern/)
 - [Front Controller Design Pattern](https://www.geeksforgeeks.org/front-controller-design-pattern/)
 - [Adapter Design Pattern](https://www.tutorialspoint.com/design_pattern/adapter_pattern.htm)
+- [Prototype Design Pattern](https://medium.com/@yasinmemic/prototype-design-pattern-nedir-37dc82983bef)
+- [Singleton Design Pattern](https://www.journaldev.com/1377/java-singleton-design-pattern-best-practices-examples)
 
