@@ -1,4 +1,4 @@
-package com.ba.designpattern.strategy;
+package com.ba.designpattern.strategy.dbexample;
 
 import org.springframework.stereotype.Component;
 

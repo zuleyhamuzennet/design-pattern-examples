@@ -1,4 +1,4 @@
-package com.ba.designpattern.strategy;
+package com.ba.designpattern.strategy.dbexample;
 
 public interface DB {
     void select();

@@ -1,4 +1,4 @@
-package com.ba.designpattern.strategy;
+package com.ba.designpattern.strategy.dbexample;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
